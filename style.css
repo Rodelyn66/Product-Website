@@ -1,0 +1,45 @@
+html {
+    background-image: url("/Image/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto; /* Ensure scrolling works on the entire page */
+}
+
+body {
+    overflow: auto; /* Ensure scrolling works on the body */
+    margin: 0; /* Remove default body margins */
+}
+
+header {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #333; /* Add a dark background to the header */
+}
+
+nav {
+  background-color: #333; /* Dark background for navigation */
+  padding: 10px 0;
+  text-align: center; /* Center the nav items */
+}
+
+nav a {
+  color: yellow;
+  text-decoration: none;
+  margin: 0 15px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+section {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  margin-bottom: 20px; /* Add spacing between sections */
+  border: 1px solid #ccc; /* Optional: Add a subtle border */
+}
