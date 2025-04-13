@@ -3,25 +3,25 @@ html {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overflow: auto; /* Ensure scrolling works on the entire page */
+    overflow: auto; 
 }
 
 body {
-    overflow: auto; /* Ensure scrolling works on the body */
-    margin: 0; /* Remove default body margins */
+    overflow: auto; 
+    margin: 0; 
 }
 
 header {
   color: white;
   padding: 20px 0;
   text-align: center;
-  background-color: #333; /* Add a dark background to the header */
+  background-color: #333; 
 }
 
 nav {
-  background-color: #333; /* Dark background for navigation */
+  background-color: #333; 
   padding: 10px 0;
-  text-align: center; /* Center the nav items */
+  text-align: center; 
 }
 
 nav a {
@@ -40,6 +40,6 @@ section {
   background-color: white;
   color: black;
   padding: 20px;
-  margin-bottom: 20px; /* Add spacing between sections */
-  border: 1px solid #ccc; /* Optional: Add a subtle border */
+  margin-bottom: 20px; 
+  border: 1px solid #ccc; 
 }
